@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './Navbar';
+import Home from './Home';
 
 function App() {
+  const title = "Welcome to the new blog";
   return (
     <div className="App">
-      <div className="header">React Component</div>
+      <NavBar />
+      <div className="header">
+        <Home />
+      </div>
       </div>
   );
 }
